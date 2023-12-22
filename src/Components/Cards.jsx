@@ -93,7 +93,7 @@ const Cards = () => {
                         </button>
                     </div>
                     <button className="color_primery_gray ff_main fs_lg fw-normal mb-0 next-butoon">
-                    Next
+                    Next {'>>'}
                     </button>
                 </div>
             </Container>
