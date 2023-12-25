@@ -13,7 +13,7 @@ const Header2 = () => {
     let [count, setCount] = useState(1);
 
     function incrementCount() {
-        setCount(prevCount => (prevCount < 10 ? prevCount + 1 : prevCount));
+        setCount(prevCount => (prevCount < 30 ? prevCount + 1 : prevCount));
     }
     function decrementCount() {
 

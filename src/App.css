@@ -349,9 +349,11 @@
 .gap-11 {
   gap: 11.74px;
 }
-
-nav div ul li a:hover {
-  -webkit-text-stroke: 0.9px var(--color-black);
+.finish {
+  transition: all 300ms linear !important;
+}
+.finish:hover {
+  -webkit-text-stroke: 1px;
 }
 
 /* line-height */
@@ -690,7 +692,7 @@ nav div ul li a:hover {
 .rotation-animation {
   animation: rotateimg 4s infinite linear forwards;
 }
-.heart:hover svg{
+.heart:hover svg {
   fill: red;
 }
 @keyframes rotateimg {
@@ -731,7 +733,7 @@ nav-tabs .nav-item.show .nav-link,
   font-family: var(--ff-main) !important;
   margin: 0px 20px 15px 0px !important;
   padding: 0 0 5px 0 !important;
-  font-size: var(--fs-2xl) !important;
+  font-size: 12px !important;
   font-weight: 400 !important;
   color: var(--color-black) !important;
   text-decoration: none;
@@ -744,7 +746,7 @@ nav-tabs .nav-item.show .nav-link,
 .tabs-para {
   color: #000;
   font-family: var(--ff-main);
-  font-size: var(--fs-2xl);
+  font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -772,7 +774,8 @@ nav-tabs .nav-item.show .nav-link,
     max-height: 50px;
   }
   .nav-link {
-    margin: 0px 20px 6px 0px !important;
+    margin: 0px 12px 6px 0px !important;
+    font-weight: 600 !important;
   }
 }
 @media (min-width: 575.5px) {
@@ -789,6 +792,10 @@ nav-tabs .nav-item.show .nav-link,
   .nav-link {
     margin: 0px 25px 6px 0px !important;
     padding: 0 0 10px 0 !important;
+    font-size: 14px !important;
+  }
+  .tabs-para{
+  font-size: 20px;
   }
   .cart-button {
     padding: 10px 32px;
@@ -816,9 +823,15 @@ nav-tabs .nav-item.show .nav-link,
 @media (min-width: 768px) {
   .nav-link {
     margin: 0px 91px 15px 0px !important;
+    font-size: 16px !important;
+
   }
 }
-
+@media (min-width:992px) {
+  .nav-link {
+    font-size: 20px !important;
+  }
+}
 @media (min-width: 1400px) {
   .size-chart {
     padding: 8px 32px 7px 32px;

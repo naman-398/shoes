@@ -9,7 +9,7 @@ const Sectiontab = () => {
         <div>
             <section className="pt-2 mt-2 mt-md-4 pt-md-5 pb-1">
                 <Container className="container">
-                    <div className="gap-tab overflow-x_scroll pb-4 mb-2">
+                    <div className="overflow_x_scroll pb-4 mb-2">
                         <Tabs
                             id="controlled-tab-example"
                             activeKey={key}

@@ -64,7 +64,7 @@ const Header = () => {
                                <img src={nav_icon} alt="icon" className="nav_icon d-block d-lg-none"/>
                             </label>
                                 <ul className={`${ show ? "end-0" : "end-100"} ps-0 mb-0 d-flex justify-content-lg-end align-items-center gap-3 py_29-30 menubar`}>
-                                <li>
+                                <li className="finish">
                                     <a
                                         href="#"
                                         className="text-decoration-none fs_xl color_black fw-normal ff_primery finish"
